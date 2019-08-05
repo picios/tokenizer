@@ -18,7 +18,7 @@ $tm = new Picios\Tokenizer\TokenManager('seed', [
     'id'
 ]);
 
-$token->createToken([
+$token = $tm->createToken([
     'id' => 5,
 ]);
 
