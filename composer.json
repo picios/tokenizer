@@ -2,11 +2,11 @@
     "name": "picios/tokenizer",
     "description": "Easy uri tokens creator and validator",
     "keywords": ["token", "composer", "package"],
-    "license": "DBAD",
+    "license": "ISC",
     "authors": [
         {
             "name": "picios",
-            "email": ""
+            "email": "picios@protonmail.com"
         }
     ],
     "type": "library",
