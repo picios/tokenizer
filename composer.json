@@ -1,0 +1,24 @@
+{
+    "name": "picios/tokenizer",
+    "description": "Easy uri tokens creator and validator",
+    "keywords": ["token", "composer", "package"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "picios",
+            "email": "psycho80@o2.pl"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.2"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Picios\\Tokenizer\\": "src/"
+        }
+    }
+}
