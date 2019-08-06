@@ -2,7 +2,7 @@
     "name": "picios/tokenizer",
     "description": "Easy uri tokens creator and validator",
     "keywords": ["token", "composer", "package"],
-    "license": "ISC",
+    "license": "CC-BY-3.0",
     "authors": [
         {
             "name": "picios",
