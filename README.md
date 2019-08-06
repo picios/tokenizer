@@ -32,7 +32,7 @@ $token = $tm->createToken([
 echo "{$token}";
 ```
 ### Parsing the token
-Incomming token must be validated by the TokenManager::parse() function 
+Incoming token must be validated by the TokenManager::parse() function 
 ``` php
 <?php
 
@@ -45,7 +45,7 @@ $tm = new TokenManager('seed', [
     'id'
 ]);
 
-// incomming token  e.g. from the Request::query object
+// incoming token  e.g. from the Request::query object
 // or just $_GET array
 $stringToken = 'NDc5NWI4MjAxOS0wOC0wNlQwODozNjoxMCswMjowMHsiaWQiOjV9';
 
@@ -71,7 +71,7 @@ $tm = new TokenManager('seed', [
     'id'
 ]);
 
-// incomming token  e.g. from the Request::query object
+// incoming token  e.g. from the Request::query object
 // or just $_GET array
 $stringToken = 'NDc5NWI4MjAxOS0wOC0wNlQwODozNjoxMCswMjowMHsiaWQiOjV9';
 
