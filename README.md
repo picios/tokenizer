@@ -23,7 +23,7 @@ use Picios\Tokenizer\TokenManager;
 
 require_once __DIR__ . '/vendor/autoload.php';
 $tm = new TokenManager('seed', [
-    'id'
+    'id', // information about fields, that the token will contain
 ]);
 $token = $tm->createToken([
     'id' => 5,
@@ -42,7 +42,7 @@ use Picios\Tokenizer\TokenNotValidException;
 require_once __DIR__ . '/vendor/autoload.php';
 
 $tm = new TokenManager('seed', [
-    'id'
+    'id', // information about fields, that the token will contain
 ]);
 
 // incoming token  e.g. from the Request::query object
