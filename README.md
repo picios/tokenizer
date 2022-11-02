@@ -23,7 +23,7 @@ use Picios\Tokenizer\TokenManager;
 
 require_once __DIR__ . '/vendor/autoload.php';
 $tm = new TokenManager('seed', [
-    'id', // information about fields, that the token will contain
+    'id', // information about fields, that the token will contain. In this case only 'id'
 ]);
 $token = $tm->createToken([
     'id' => 5,
@@ -42,7 +42,7 @@ use Picios\Tokenizer\TokenNotValidException;
 require_once __DIR__ . '/vendor/autoload.php';
 
 $tm = new TokenManager('seed', [
-    'id', // information about fields, that the token will contain
+    'id', // information about fields, that the token will contain. In this case only 'id'
 ]);
 
 // incoming token  e.g. from the Request::query object
@@ -68,7 +68,7 @@ use Picios\Tokenizer\TokenNotValidException;
 require_once __DIR__ . '/vendor/autoload.php';
 
 $tm = new TokenManager('seed', [
-    'id'
+    'id' // information about fields, that the token will contain. In this case only 'id'
 ]);
 
 // incoming token  e.g. from the Request::query object
@@ -86,7 +86,7 @@ try {
 
 ## How it works
 
-The token alowes you to store a limited amount of data in one string in a safe way. 
+The token allows you to store a limited amount of data in one string in a safe way. 
 
 To create a new token, you need to get TokenManager object with parameters SEED and a structure of the data in token. It's a simple array with names of the token data fields. The SEED and the structure must be the same during creating the token and when you parse it.
 
